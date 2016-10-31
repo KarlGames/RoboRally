@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Cards>
+  <Option title="Circut Breaker" img="imp.bmp"/>
+  <Option title="Crab Legs" img="imp.bmp"/>
+  <Option title="Fourth Gear" img="imp.bmp"/>
+  <Option title="Brakes" img="imp.bmp"/>
+  <Option title="Ramming Gear" img="imp.bmp"/>
+  <Option title="Power-Down Shield" img="imp.bmp"/>
+  <Option title="Ablative Coat" img="imp.bmp"/>
+  <Option title="Conditional Program" img="imp.bmp"/>
+  <Option title="Abort Switch" img="imp.bmp"/>
+  <Option title="Recompile" img="imp.bmp"/>
+  <Option title="Flywheel" img="imp.bmp"/>
+  <Option title="Extra Memory" img="imp.bmp"/>
+  <Option title="Superior Archive" img="imp.bmp"/>
+  <Option title="Mini Howitzer" img="imp.bmp"/>
+  <Option title="Dual Processor" img="imp.bmp"/>
+  <Option title="Gyroscopic Stabilizer" img="imp.bmp"/>
+  <Option title="Pressor Beam" img="imp.bmp"/>
+  <Option title="Scrambler" img="imp.bmp"/>
+  <Option title="Reverse Gear" img="imp.bmp"/>
+  <Option title="High-Power Laser" img="imp.bmp"/>
+  <Option title="Mechanical Arm" img="imp.bmp"/>
+  <Option title="Tractor Beam" img="imp.bmp"/>
+  <Option title="Rear-Firing Laser" img="imp.bmp"/>
+  <Option title="Double-Barreled Laser" img="imp.bmp"/>
+  <Option title="Fire Control" img="imp.bmp"/>
+  <Option title="Radio Control" img="imp.bmp"/>
+</Cards>

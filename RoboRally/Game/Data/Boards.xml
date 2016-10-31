@@ -1,0 +1,1087 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Boards>
+  <Board title="StartA" height="4" width="12">
+    <Square x="0" y="1" type="start7" />
+    <Square x="8" y="1" type="start4" />
+    <Square x="10" y="1" type="start6" />
+    <Square x="1" y="1" type="start5">
+      <West hasWall="true"/>
+    </Square>
+    <Square x="3" y="1" type="start3">
+      <West hasWall="true"/>
+    </Square>
+    <Square x="5" y="1" type="start1">
+      <West hasWall="true"/>
+    </Square>
+    <Square x="6" y="1" type="start2">
+      <West hasWall="true"/>
+    </Square>
+    <Square x="7" y="1" type="Blank">
+      <West hasWall="true"/>
+    </Square>
+    <Square x="9" y="1" type="Blank">
+      <West hasWall="true"/>
+    </Square>
+    <Square x="11" y="1" type="start8">
+      <West hasWall="true"/>
+    </Square>
+    <Square x="2" y="3" type="Blank">
+      <North hasWall="true"/>
+    </Square>
+    <Square x="4" y="3" type="Blank">
+      <North hasWall="true"/>
+    </Square>
+    <Square x="7" y="3" type="Blank">
+      <North hasWall="true"/>
+    </Square>
+    <Square x="9" y="3" type="Blank">
+      <North hasWall="true"/>
+    </Square>
+    <Square x="2" y="0" type="Blank">
+      <South hasWall="true"/>
+    </Square>
+    <Square x="4" y="0" type="Blank">
+      <South hasWall="true"/>
+    </Square>
+    <Square x="7" y="0" type="Blank">
+      <South hasWall="true"/>
+    </Square>
+    <Square x="9" y="0" type="Blank">
+      <South hasWall="true"/>
+    </Square>
+  </Board>
+  <Board title="Chop Shop" height="12" width="12">
+    <!-- Column 0 Origin is text square right way up-->
+    <Square x="0" y="0" type="Blank">
+      <North hasWall="false" Emitters="0"/>
+      <East hasWall="false" Emitters="0"/>
+      <South hasWall="false" Emitters="0"/>
+      <West hasWall="false" Emitters="0"/>
+      <Feature />
+    </Square>
+    <Square x="0" y="1" type="Blank">
+      <North hasWall="false" Emitters="0"/>
+      <East hasWall="false" Emitters="0"/>
+      <South hasWall="false" Emitters="0"/>
+      <West hasWall="false" Emitters="0"/>
+      <Feature />
+    </Square>
+    <Square x="0" y="2" type="Blank">
+      <North hasWall="false" Emitters="0"/>
+      <East hasWall="false" Emitters="0"/>
+      <South hasWall="false" Emitters="0"/>
+      <West hasWall="true" Emitters="0"/>
+      <Feature />
+    </Square>
+    <Square x="0" y="3" type="Blank">
+      <North hasWall="false" Emitters="0"/>
+      <East hasWall="false" Emitters="0"/>
+      <South hasWall="false" Emitters="0"/>
+      <West hasWall="false" Emitters="0"/>
+      <Feature />
+    </Square>
+    <Square x="0" y="4" type="Blank">
+      <North hasWall="false" Emitters="0"/>
+      <East hasWall="false" Emitters="0"/>
+      <South hasWall="false" Emitters="0"/>
+      <West hasWall="true" Emitters="0"/>
+      <Feature />
+    </Square>
+    <Square x="0" y="5" type="Blank">
+      <North hasWall="false" Emitters="0"/>
+      <East hasWall="false" Emitters="0"/>
+      <South hasWall="false" Emitters="0"/>
+      <West hasWall="false" Emitters="0"/>
+      <Feature type="tConv" dir="E"/>
+    </Square>
+    <Square x="0" y="6" type="Blank">
+      <North hasWall="false" Emitters="0"/>
+      <East hasWall="false" Emitters="0"/>
+      <South hasWall="false" Emitters="0"/>
+      <West hasWall="false" Emitters="0"/>
+      <Feature type="tConv" dir="W"/>
+      <Feature />
+    </Square>
+    <Square x="0" y="7" type="Blank">
+      <North hasWall="false" Emitters="0"/>
+      <East hasWall="false" Emitters="0"/>
+      <South hasWall="false" Emitters="0"/>
+      <West hasWall="true" Emitters="0"/>
+      <Feature />
+    </Square>
+    <Square x="0" y="8" type="Blank">
+      <North hasWall="false" Emitters="0"/>
+      <East hasWall="false" Emitters="0"/>
+      <South hasWall="false" Emitters="0"/>
+      <West hasWall="false" Emitters="0"/>
+      <Feature />
+    </Square>
+    <Square x="0" y="9" type="Blank">
+      <North hasWall="false" Emitters="0"/>
+      <East hasWall="false" Emitters="0"/>
+      <South hasWall="false" Emitters="0"/>
+      <West hasWall="true" Emitters="0"/>
+      <Feature />
+    </Square>
+    <Square x="0" y="10" type="Blank">
+      <North hasWall="false" Emitters="0"/>
+      <East hasWall="false" Emitters="0"/>
+      <South hasWall="false" Emitters="0"/>
+      <West hasWall="false" Emitters="0"/>
+      <Feature />
+    </Square>
+    <Square x="0" y="11" type="Checkpoint">
+      <North hasWall="false" Emitters="0"/>
+      <East hasWall="false" Emitters="0"/>
+      <South hasWall="false" Emitters="0"/>
+      <West hasWall="false" Emitters="0"/>
+      <Feature />
+    </Square>
+    <!-- column -->
+    <!-- Column 1-->
+    <Square x="1" y="0" type="Blank">
+      <North hasWall="false" Emitters="0"/>
+      <East hasWall="false" Emitters="0"/>
+      <South hasWall="false" Emitters="0"/>
+      <West hasWall="false" Emitters="0"/>
+      <Feature type="yConv" dir="S"/>
+    </Square>
+    <Square x="1" y="1" type="Blank">
+      <North hasWall="false" Emitters="0"/>
+      <East hasWall="true" Emitters="3"/>
+      <South hasWall="false" Emitters="0"/>
+      <West hasWall="true" Emitters="0"/>
+    </Square>
+    <Square x="1" y="2" type="Blank">
+      <North hasWall="false" Emitters="0"/>
+      <East hasWall="false" Emitters="0"/>
+      <South hasWall="false" Emitters="0"/>
+      <West hasWall="false" Emitters="0"/>
+      <Feature type="yConv" dir="S"/>
+    </Square>
+    <Square x="1" y="3" type="Blank">
+      <North hasWall="false" Emitters="0"/>
+      <East hasWall="false" Emitters="0"/>
+      <South hasWall="false" Emitters="0"/>
+      <West hasWall="false" Emitters="0"/>
+      <Feature type="yConv" dir="S"/>
+    </Square>
+    <Square x="1" y="4" type="Blank">
+      <North hasWall="false" Emitters="0"/>
+      <East hasWall="false" Emitters="0"/>
+      <South hasWall="false" Emitters="0"/>
+      <West hasWall="false" Emitters="0"/>
+      <Feature type="yConv" dir="S"/>
+    </Square>
+    <Square x="1" y="5" type="Blank">
+      <North hasWall="false" Emitters="0"/>
+      <East hasWall="false" Emitters="0"/>
+      <South hasWall="false" Emitters="0"/>
+      <West hasWall="false" Emitters="0"/>
+      <Feature type="yTurn" dir="RS"/>
+    </Square>
+    <Square x="1" y="6" type="Blank">
+      <North hasWall="false" Emitters="0"/>
+      <East hasWall="false" Emitters="0"/>
+      <South hasWall="false" Emitters="0"/>
+      <West hasWall="false" Emitters="0"/>
+      <Feature type="yConv" dir="W"/>
+    </Square>
+    <Square x="1" y="7" type="Blank">
+      <North hasWall="false" Emitters="0"/>
+      <East hasWall="false" Emitters="0"/>
+      <South hasWall="false" Emitters="0"/>
+      <West hasWall="false" Emitters="0"/>
+      <Feature />
+    </Square>
+    <Square x="1" y="8" type="Blank">
+      <North hasWall="false" Emitters="0"/>
+      <East hasWall="false" Emitters="0"/>
+      <South hasWall="false" Emitters="0"/>
+      <West hasWall="false" Emitters="0"/>
+      <Feature />
+    </Square>
+    <Square x="1" y="9" type="Blank">
+      <North hasWall="false" Emitters="0"/>
+      <East hasWall="false" Emitters="0"/>
+      <South hasWall="false" Emitters="0"/>
+      <West hasWall="false" Emitters="0"/>
+      <Feature />
+    </Square>
+    <Square x="1" y="10" type="Pit">
+      <North hasWall="false" Emitters="0"/>
+      <East hasWall="false" Emitters="0"/>
+      <South hasWall="false" Emitters="0"/>
+      <West hasWall="false" Emitters="0"/>
+      <Feature />
+    </Square>
+    <Square x="1" y="11" type="Blank">
+      <North hasWall="false" Emitters="0"/>
+      <East hasWall="false" Emitters="0"/>
+      <South hasWall="false" Emitters="0"/>
+      <West hasWall="false" Emitters="0"/>
+      <Feature />
+    </Square>
+    <!-- column -->
+    <!-- Column 2-->
+    <Square x="2" y="0" type="Blank">
+      <North hasWall="false" Emitters="0"/>
+      <East hasWall="false" Emitters="0"/>
+      <South hasWall="true" Emitters="0"/>
+      <West hasWall="false" Emitters="0"/>
+      <Feature />
+    </Square>
+    <Square x="2" y="1" type="Blank">
+      <North hasWall="false" Emitters="0"/>
+      <East hasWall="false" Emitters="0"/>
+      <South hasWall="false" Emitters="0"/>
+      <West hasWall="false" Emitters="0"/>
+      <Feature />
+    </Square>
+    <Square x="2" y="2" type="Option">
+      <North hasWall="false" Emitters="0"/>
+      <East hasWall="false" Emitters="0"/>
+      <South hasWall="false" Emitters="0"/>
+      <West hasWall="false" Emitters="0"/>
+      <Feature />
+    </Square>
+    <Square x="2" y="3" type="Blank">
+      <North hasWall="false" Emitters="0"/>
+      <East hasWall="true" Emitters="0"/>
+      <South hasWall="false" Emitters="0"/>
+      <West hasWall="false" Emitters="0"/>
+      <Feature />
+    </Square>
+    <Square x="2" y="4" type="Blank">
+      <North hasWall="false" Emitters="0"/>
+      <East hasWall="false" Emitters="0"/>
+      <South hasWall="true" Emitters="1"/>
+      <West hasWall="false" Emitters="0"/>
+      <Feature />
+    </Square>
+    <Square x="2" y="5" type="Blank">
+      <North hasWall="false" Emitters="0"/>
+      <East hasWall="false" Emitters="0"/>
+      <South hasWall="false" Emitters="0"/>
+      <West hasWall="false" Emitters="0"/>
+      <Feature type="Gear" dir="left"/>
+    </Square>
+    <Square x="2" y="6" type="Blank">
+      <North hasWall="false" Emitters="0"/>
+      <East hasWall="false" Emitters="0"/>
+      <South hasWall="false" Emitters="0"/>
+      <West hasWall="false" Emitters="0"/>
+      <Feature type="Gear" dir="right"/>
+    </Square>
+    <Square x="2" y="7" type="Blank">
+      <North hasWall="false" Emitters="0"/>
+      <East hasWall="false" Emitters="0"/>
+      <South hasWall="false" Emitters="0"/>
+      <West hasWall="false" Emitters="0"/>
+      <Feature />
+    </Square>
+    <Square x="2" y="8" type="Blank">
+      <North hasWall="false" Emitters="0"/>
+      <East hasWall="false" Emitters="0"/>
+      <South hasWall="false" Emitters="0"/>
+      <West hasWall="false" Emitters="0"/>
+      <Feature />
+    </Square>
+    <Square x="2" y="9" type="Blank">
+      <North hasWall="true" Emitters="0"/>
+      <East hasWall="false" Emitters="0"/>
+      <South hasWall="false" Emitters="0"/>
+      <West hasWall="false" Emitters="0"/>
+      <Feature />
+    </Square>
+    <Square x="2" y="10" type="Blank">
+      <North hasWall="false" Emitters="0"/>
+      <East hasWall="true" Emitters="0"/>
+      <South hasWall="false" Emitters="0"/>
+      <West hasWall="false" Emitters="0"/>
+      <Feature />
+    </Square>
+    <Square x="2" y="11" type="Blank">
+      <North hasWall="true" Emitters="0"/>
+      <East hasWall="false" Emitters="0"/>
+      <South hasWall="false" Emitters="0"/>
+      <West hasWall="false" Emitters="0"/>
+      <Feature />
+    </Square>
+    <!-- column -->
+    <!-- Column 3-->
+    <Square x="3" y="0" type="Blank">
+      <North hasWall="false" Emitters="0"/>
+      <East hasWall="false" Emitters="0"/>
+      <South hasWall="false" Emitters="0"/>
+      <West hasWall="false" Emitters="0"/>
+      <Feature type="yConv" dir="N"/>
+    </Square>
+    <Square x="3" y="1" type="Blank">
+      <North hasWall="false" Emitters="0"/>
+      <East hasWall="false" Emitters="0"/>
+      <South hasWall="false" Emitters="0"/>
+      <West hasWall="false" Emitters="0"/>
+      <Feature  type="yConv" dir="N"/>
+    </Square>
+    <Square x="3" y="2" type="Blank">
+      <North hasWall="false" Emitters="0"/>
+      <East hasWall="false" Emitters="0"/>
+      <South hasWall="false" Emitters="0"/>
+      <West hasWall="false" Emitters="0"/>
+      <Feature  type="yConv" dir="N"/>
+    </Square>
+    <Square x="3" y="3" type="Blank">
+      <North hasWall="false" Emitters="0"/>
+      <East hasWall="false" Emitters="0"/>
+      <South hasWall="false" Emitters="0"/>
+      <West hasWall="false" Emitters="0"/>
+      <Feature />
+    </Square>
+    <Square x="3" y="4" type="Blank">
+      <North hasWall="false" Emitters="0"/>
+      <East hasWall="false" Emitters="0"/>
+      <South hasWall="false" Emitters="0"/>
+      <West hasWall="false" Emitters="0"/>
+      <Feature  type="bConv" dir="N"/>
+    </Square>
+    <Square x="3" y="5" type="Blank">
+      <North hasWall="false" Emitters="0"/>
+      <East hasWall="false" Emitters="0"/>
+      <South hasWall="false" Emitters="0"/>
+      <West hasWall="false" Emitters="0"/>
+      <Feature  type="bConv" dir="N"/>
+    </Square>
+    <Square x="3" y="6" type="Blank">
+      <North hasWall="false" Emitters="0"/>
+      <East hasWall="false" Emitters="0"/>
+      <South hasWall="false" Emitters="0"/>
+      <West hasWall="false" Emitters="0"/>
+      <Feature type="bConv" dir="N" />
+    </Square>
+    <Square x="3" y="7" type="Blank">
+      <North hasWall="false" Emitters="0"/>
+      <East hasWall="false" Emitters="0"/>
+      <South hasWall="false" Emitters="0"/>
+      <West hasWall="false" Emitters="0"/>
+      <Feature type="bConv" dir="N" />
+    </Square>
+    <Square x="3" y="8" type="Blank">
+      <North hasWall="false" Emitters="0"/>
+      <East hasWall="false" Emitters="0"/>
+      <South hasWall="false" Emitters="0"/>
+      <West hasWall="false" Emitters="0"/>
+      <Feature type="bConv" dir="N" />
+    </Square>
+    <Square x="3" y="9" type="Blank">
+      <North hasWall="false" Emitters="0"/>
+      <East hasWall="false" Emitters="0"/>
+      <South hasWall="false" Emitters="0"/>
+      <West hasWall="false" Emitters="0"/>
+      <Feature type="b3way" dir="RN" />
+    </Square>
+    <Square x="3" y="10" type="Blank">
+      <North hasWall="false" Emitters="0"/>
+      <East hasWall="false" Emitters="0"/>
+      <South hasWall="false" Emitters="0"/>
+      <West hasWall="false" Emitters="0"/>
+      <Feature type="bConv" dir="N" />
+    </Square>
+    <Square x="3" y="11" type="Blank">
+      <North hasWall="false" Emitters="0"/>
+      <East hasWall="false" Emitters="0"/>
+      <South hasWall="false" Emitters="0"/>
+      <West hasWall="false" Emitters="0"/>
+      <Feature type="bConv" dir="N" />
+    </Square>
+    <!-- column -->
+    <!-- Column 4-->
+    <Square x="4" y="0" type="Blank">
+      <North hasWall="false" Emitters="0"/>
+      <East hasWall="false" Emitters="0"/>
+      <South hasWall="false" Emitters="0"/>
+      <West hasWall="false" Emitters="0"/>
+      <Feature />
+    </Square>
+    <Square x="4" y="1" type="Blank">
+      <North hasWall="false" Emitters="0"/>
+      <East hasWall="false" Emitters="0"/>
+      <South hasWall="true" Emitters="0"/>
+      <West hasWall="false" Emitters="0"/>
+      <Feature />
+    </Square>
+    <Square x="4" y="2" type="Blank">
+      <North hasWall="false" Emitters="0"/>
+      <East hasWall="false" Emitters="0"/>
+      <South hasWall="false" Emitters="0"/>
+      <West hasWall="false" Emitters="0"/>
+      <Feature />
+    </Square>
+    <Square x="4" y="3" type="Blank">
+      <North hasWall="false" Emitters="0"/>
+      <East hasWall="false" Emitters="0"/>
+      <South hasWall="false" Emitters="0"/>
+      <West hasWall="false" Emitters="0"/>
+      <Feature type="Gear" Dir="R"/>
+    </Square>
+    <Square x="4" y="4" type="Blank">
+      <North hasWall="false" Emitters="0"/>
+      <East hasWall="false" Emitters="0"/>
+      <South hasWall="false" Emitters="0"/>
+      <West hasWall="false" Emitters="0"/>
+      <Feature />
+    </Square>
+    <Square x="4" y="5" type="Blank">
+      <North hasWall="false" Emitters="0"/>
+      <East hasWall="false" Emitters="0"/>
+      <South hasWall="false" Emitters="0"/>
+      <West hasWall="false" Emitters="0"/>
+      <Feature />
+    </Square>
+    <Square x="4" y="6" type="Blank">
+      <North hasWall="false" Emitters="0"/>
+      <East hasWall="false" Emitters="0"/>
+      <South hasWall="false" Emitters="0"/>
+      <West hasWall="false" Emitters="0"/>
+      <Feature />
+    </Square>
+    <Square x="4" y="7" type="Blank">
+      <North hasWall="false" Emitters="0"/>
+      <East hasWall="false" Emitters="0"/>
+      <South hasWall="false" Emitters="0"/>
+      <West hasWall="false" Emitters="0"/>
+      <Feature />
+    </Square>
+    <Square x="0" y="8" type="Blank">
+      <North hasWall="false" Emitters="0"/>
+      <East hasWall="false" Emitters="0"/>
+      <South hasWall="false" Emitters="0"/>
+      <West hasWall="false" Emitters="0"/>
+      <Feature />
+    </Square>
+    <Square x="4" y="9" type="Blank">
+      <North hasWall="false" Emitters="0"/>
+      <East hasWall="false" Emitters="0"/>
+      <South hasWall="false" Emitters="0"/>
+      <West hasWall="false" Emitters="0"/>
+      <Feature type="bConv" dir="W"/>
+    </Square>
+    <Square x="4" y="10" type="Blank">
+      <North hasWall="false" Emitters="0"/>
+      <East hasWall="false" Emitters="0"/>
+      <South hasWall="false" Emitters="0"/>
+      <West hasWall="false" Emitters="0"/>
+      <Feature />
+    </Square>
+    <Square x="4" y="11" type="Blank">
+      <North hasWall="true" Emitters="0"/>
+      <East hasWall="false" Emitters="0"/>
+      <South hasWall="false" Emitters="0"/>
+      <West hasWall="false" Emitters="0"/>
+      <Feature />
+    </Square>
+    <!-- column -->
+    <!-- Column 5-->
+    <Square x="5" y="0" type="Blank">
+      <North hasWall="false" Emitters="0"/>
+      <East hasWall="false" Emitters="0"/>
+      <South hasWall="false" Emitters="0"/>
+      <West hasWall="false" Emitters="0"/>
+      <Feature />
+    </Square>
+    <Square x="5" y="1" type="Blank">
+      <North hasWall="false" Emitters="0"/>
+      <East hasWall="false" Emitters="0"/>
+      <South hasWall="false" Emitters="0"/>
+      <West hasWall="false" Emitters="0"/>
+      <Feature />
+    </Square>
+    <Square x="5" y="2" type="Pit">
+      <North hasWall="false" Emitters="0"/>
+      <East hasWall="false" Emitters="0"/>
+      <South hasWall="false" Emitters="0"/>
+      <West hasWall="false" Emitters="0"/>
+      <Feature />
+    </Square>
+    <Square x="5" y="3" type="Blank">
+      <North hasWall="false" Emitters="0"/>
+      <East hasWall="false" Emitters="0"/>
+      <South hasWall="false" Emitters="0"/>
+      <West hasWall="false" Emitters="0"/>
+      <Feature type="Gear" dir="L"/>
+    </Square>
+    <Square x="5" y="4" type="Blank">
+      <North hasWall="false" Emitters="0"/>
+      <East hasWall="false" Emitters="0"/>
+      <South hasWall="false" Emitters="0"/>
+      <West hasWall="false" Emitters="0"/>
+      <Feature />
+    </Square>
+    <Square x="5" y="5" type="Blank">
+      <North hasWall="false" Emitters="0"/>
+      <East hasWall="false" Emitters="0"/>
+      <South hasWall="false" Emitters="0"/>
+      <West hasWall="false" Emitters="0"/>
+      <Feature />
+    </Square>
+    <Square x="5" y="6" type="Option">
+      <North hasWall="false" Emitters="0"/>
+      <East hasWall="false" Emitters="0"/>
+      <South hasWall="false" Emitters="0"/>
+      <West hasWall="false" Emitters="0"/>
+      <Feature/>
+    </Square>
+    <Square x="5" y="7" type="Blank">
+      <North hasWall="false" Emitters="0"/>
+      <East hasWall="false" Emitters="0"/>
+      <South hasWall="false" Emitters="0"/>
+      <West hasWall="false" Emitters="0"/>
+      <Feature type="yConv" dir="E"/>
+    </Square>
+    <Square x="5" y="8" type="Blank">
+      <North hasWall="false" Emitters="0"/>
+      <East hasWall="false" Emitters="0"/>
+      <South hasWall="true" Emitters="0"/>
+      <West hasWall="true" Emitters="0"/>
+      <Feature />
+    </Square>
+    <Square x="5" y="9" type="Blank">
+      <North hasWall="false" Emitters="0"/>
+      <East hasWall="false" Emitters="0"/>
+      <South hasWall="false" Emitters="0"/>
+      <West hasWall="false" Emitters="0"/>
+      <Feature  type="bturn" dir="RW"/>
+    </Square>
+    <Square x="5" y="10" type="Blank">
+      <North hasWall="false" Emitters="0"/>
+      <East hasWall="true" Emitters="1"/>
+      <South hasWall="false" Emitters="0"/>
+      <West hasWall="false" Emitters="0"/>
+      <Feature type="bConv" dis="S"/>
+    </Square>
+    <Square x="5" y="11" type="Blank">
+      <North hasWall="false" Emitters="0"/>
+      <East hasWall="false" Emitters="0"/>
+      <South hasWall="false" Emitters="0"/>
+      <West hasWall="false" Emitters="0"/>
+      <Feature type="bConv" dis="S"/>
+    </Square>
+    <!-- column -->
+    <!-- Column 6-->
+    <Square x="6" y="0" type="Blank">
+      <North hasWall="false" Emitters="0"/>
+      <East hasWall="false" Emitters="0"/>
+      <South hasWall="false" Emitters="0"/>
+      <West hasWall="false" Emitters="0"/>
+      <Feature />
+    </Square>
+    <Square x="6" y="1" type="Blank">
+      <North hasWall="false" Emitters="0"/>
+      <East hasWall="false" Emitters="0"/>
+      <South hasWall="false" Emitters="0"/>
+      <West hasWall="false" Emitters="0"/>
+      <Feature />
+    </Square>
+    <Square x="6" y="2" type="Blank">
+      <North hasWall="false" Emitters="0"/>
+      <East hasWall="false" Emitters="0"/>
+      <South hasWall="false" Emitters="0"/>
+      <West hasWall="false" Emitters="0"/>
+      <Feature />
+    </Square>
+    <Square x="6" y="3" type="Blank">
+      <North hasWall="false" Emitters="0"/>
+      <East hasWall="true" Emitters="2"/>
+      <South hasWall="false" Emitters="0"/>
+      <West hasWall="false" Emitters="0"/>
+      <Feature />
+    </Square>
+    <Square x="6" y="4" type="Blank">
+      <North hasWall="false" Emitters="0"/>
+      <East hasWall="false" Emitters="0"/>
+      <South hasWall="false" Emitters="0"/>
+      <West hasWall="false" Emitters="0"/>
+      <Feature type="yConv" dis="S"/>
+    </Square>
+    <Square x="6" y="5" type="Blank">
+      <North hasWall="false" Emitters="0"/>
+      <East hasWall="false" Emitters="0"/>
+      <South hasWall="false" Emitters="0"/>
+      <West hasWall="false" Emitters="0"/>
+      <Feature type="yConv" dis="S"/>
+    </Square>
+    <Square x="6" y="6" type="Blank">
+      <North hasWall="false" Emitters="0"/>
+      <East hasWall="false" Emitters="0"/>
+      <South hasWall="false" Emitters="0"/>
+      <West hasWall="true" Emitters="0"/>
+      <Feature type="yturn" dis="LS"/>
+    </Square>
+    <Square x="6" y="7" type="Blank">
+      <North hasWall="false" Emitters="0"/>
+      <East hasWall="false" Emitters="0"/>
+      <South hasWall="false" Emitters="0"/>
+      <West hasWall="false" Emitters="0"/>
+      <Feature type="Gear" dir="L"/>
+    </Square>
+    <Square x="6" y="8" type="Blank">
+      <North hasWall="false" Emitters="0"/>
+      <East hasWall="false" Emitters="0"/>
+      <South hasWall="false" Emitters="0"/>
+      <West hasWall="false" Emitters="0"/>
+      <Feature type="yConv" dir="N"/>
+    </Square>
+    <Square x="6" y="9" type="Blank">
+      <North hasWall="false" Emitters="0"/>
+      <East hasWall="false" Emitters="0"/>
+      <South hasWall="false" Emitters="0"/>
+      <West hasWall="false" Emitters="0"/>
+      <Feature type="yConv" dir="N"/>
+    </Square>
+    <Square x="6" y="10" type="Blank">
+      <North hasWall="false" Emitters="0"/>
+      <East hasWall="false" Emitters="0"/>
+      <South hasWall="false" Emitters="0"/>
+      <West hasWall="false" Emitters="0"/>
+      <Feature type="yConv" dir="N"/>
+    </Square>
+    <Square x="6" y="11" type="Blank">
+      <North hasWall="false" Emitters="0"/>
+      <East hasWall="false" Emitters="0"/>
+      <South hasWall="false" Emitters="0"/>
+      <West hasWall="false" Emitters="0"/>
+      <Feature type="yConv" dir="N"/>
+    </Square>
+    <!-- column -->
+    <!-- Column 7-->
+    <Square x="7" y="0" type="Blank">
+      <North hasWall="false" Emitters="0"/>
+      <East hasWall="false" Emitters="0"/>
+      <South hasWall="true" Emitters="0"/>
+      <West hasWall="false" Emitters="0"/>
+      <Feature />
+    </Square>
+    <Square x="7" y="1" type="Blank">
+      <North hasWall="false" Emitters="0"/>
+      <East hasWall="false" Emitters="0"/>
+      <South hasWall="false" Emitters="0"/>
+      <West hasWall="true" Emitters="1"/>
+      <Feature />
+    </Square>
+    <Square x="7" y="2" type="Blank">
+      <North hasWall="false" Emitters="0"/>
+      <East hasWall="false" Emitters="0"/>
+      <South hasWall="false" Emitters="0"/>
+      <West hasWall="false" Emitters="0"/>
+      <Feature />
+    </Square>
+    <Square x="7" y="3" type="Blank">
+      <North hasWall="false" Emitters="0"/>
+      <East hasWall="false" Emitters="0"/>
+      <South hasWall="false" Emitters="0"/>
+      <West hasWall="false" Emitters="0"/>
+      <Feature />
+    </Square>
+    <Square x="7" y="4" type="Blank">
+      <North hasWall="false" Emitters="0"/>
+      <East hasWall="false" Emitters="0"/>
+      <South hasWall="false" Emitters="0"/>
+      <West hasWall="false" Emitters="0"/>
+      <Feature />
+    </Square>
+    <Square x="7" y="5" type="Pit">
+      <North hasWall="false" Emitters="0"/>
+      <East hasWall="false" Emitters="0"/>
+      <South hasWall="false" Emitters="0"/>
+      <West hasWall="false" Emitters="0"/>
+      <Feature />
+    </Square>
+    <Square x="7" y="6" type="Blank">
+      <North hasWall="false" Emitters="0"/>
+      <East hasWall="false" Emitters="0"/>
+      <South hasWall="false" Emitters="0"/>
+      <West hasWall="false" Emitters="0"/>
+      <Feature type="yConv" dir="W"/>
+    </Square>
+    <Square x="7" y="7" type="Blank">
+      <North hasWall="false" Emitters="0"/>
+      <East hasWall="false" Emitters="0"/>
+      <South hasWall="false" Emitters="0"/>
+      <West hasWall="false" Emitters="0"/>
+      <Feature />
+    </Square>
+    <Square x="7" y="8" type="Blank">
+      <North hasWall="false" Emitters="0"/>
+      <East hasWall="false" Emitters="0"/>
+      <South hasWall="false" Emitters="0"/>
+      <West hasWall="false" Emitters="0"/>
+      <Feature />
+    </Square>
+    <Square x="7" y="9" type="Blank">
+      <North hasWall="false" Emitters="0"/>
+      <East hasWall="false" Emitters="0"/>
+      <South hasWall="false" Emitters="0"/>
+      <West hasWall="false" Emitters="0"/>
+      <Feature />
+    </Square>
+    <Square x="7" y="10" type="Blank">
+      <North hasWall="false" Emitters="0"/>
+      <East hasWall="false" Emitters="0"/>
+      <South hasWall="false" Emitters="0"/>
+      <West hasWall="false" Emitters="0"/>
+      <Feature />
+    </Square>
+    <Square x="7" y="11" type="Blank">
+      <North hasWall="true" Emitters="0"/>
+      <East hasWall="false" Emitters="0"/>
+      <South hasWall="false" Emitters="0"/>
+      <West hasWall="false" Emitters="0"/>
+      <Feature />
+    </Square>
+    <!-- column -->
+    <!-- Column 8-->
+    <Square x="8" y="0" type="Blank">
+      <North hasWall="false" Emitters="0"/>
+      <East hasWall="false" Emitters="0"/>
+      <South hasWall="false" Emitters="0"/>
+      <West hasWall="false" Emitters="0"/>
+      <Feature type="yConv" dir="S"/>
+    </Square>
+    <Square x="8" y="1" type="Blank">
+      <North hasWall="false" Emitters="0"/>
+      <East hasWall="false" Emitters="0"/>
+      <South hasWall="false" Emitters="0"/>
+      <West hasWall="false" Emitters="0"/>
+      <Feature  type="yConv" dir="S"/>
+    </Square>
+    <Square x="8" y="2" type="Blank">
+      <North hasWall="false" Emitters="0"/>
+      <East hasWall="false" Emitters="0"/>
+      <South hasWall="false" Emitters="0"/>
+      <West hasWall="false" Emitters="0"/>
+      <Feature  type="yConv" dir="S"/>
+    </Square>
+    <Square x="8" y="3" type="Blank">
+      <North hasWall="false" Emitters="0"/>
+      <East hasWall="false" Emitters="0"/>
+      <South hasWall="false" Emitters="0"/>
+      <West hasWall="false" Emitters="0"/>
+      <Feature type="Gear" dir="L"/>
+    </Square>
+    <Square x="8" y="4" type="Blank">
+      <North hasWall="false" Emitters="0"/>
+      <East hasWall="false" Emitters="0"/>
+      <South hasWall="false" Emitters="0"/>
+      <West hasWall="false" Emitters="0"/>
+      <Feature />
+    </Square>
+    <Square x="8" y="5" type="Blank">
+      <North hasWall="false" Emitters="0"/>
+      <East hasWall="false" Emitters="0"/>
+      <South hasWall="South" Emitters="1"/>
+      <West hasWall="false" Emitters="0"/>
+      <Feature />
+    </Square>
+    <Square x="8" y="6" type="Blank">
+      <North hasWall="false" Emitters="0"/>
+      <East hasWall="false" Emitters="0"/>
+      <South hasWall="false" Emitters="0"/>
+      <West hasWall="false" Emitters="0"/>
+      <Feature type="Gear" dir="R"/>
+    </Square>
+    <Square x="8" y="7" type="Blank">
+      <North hasWall="true" Emitters="0"/>
+      <East hasWall="false" Emitters="0"/>
+      <South hasWall="false" Emitters="0"/>
+      <West hasWall="false" Emitters="0"/>
+      <Feature />
+    </Square>
+    <Square x="8" y="8" type="Blank">
+      <North hasWall="false" Emitters="0"/>
+      <East hasWall="false" Emitters="0"/>
+      <South hasWall="false" Emitters="0"/>
+      <West hasWall="false" Emitters="0"/>
+      <Feature />
+    </Square>
+    <Square x="8" y="9" type="Blank">
+      <North hasWall="false" Emitters="0"/>
+      <East hasWall="false" Emitters="0"/>
+      <South hasWall="false" Emitters="0"/>
+      <West hasWall="false" Emitters="0"/>
+      <Feature  type="yConv" dir="S"/>
+    </Square>
+    <Square x="8" y="10" type="Blank">
+      <North hasWall="false" Emitters="0"/>
+      <East hasWall="false" Emitters="0"/>
+      <South hasWall="false" Emitters="0"/>
+      <West hasWall="false" Emitters="0"/>
+      <Feature  type="yConv" dir="S"/>
+    </Square>
+    <Square x="8" y="11" type="Blank">
+      <North hasWall="false" Emitters="0"/>
+      <East hasWall="false" Emitters="0"/>
+      <South hasWall="false" Emitters="0"/>
+      <West hasWall="false" Emitters="0"/>
+      <Feature  type="yConv" dir="S"/>
+    </Square>
+    <!-- column -->
+    <!-- Column 9-->
+    <Square x="9" y="0" type="Blank">
+      <North hasWall="false" Emitters="0"/>
+      <East hasWall="false" Emitters="0"/>
+      <South hasWall="true" Emitters="0"/>
+      <West hasWall="false" Emitters="0"/>
+      <Feature />
+    </Square>
+    <Square x="9" y="1" type="Blank">
+      <North hasWall="false" Emitters="0"/>
+      <East hasWall="false" Emitters="0"/>
+      <South hasWall="false" Emitters="0"/>
+      <West hasWall="false" Emitters="0"/>
+      <Feature />
+    </Square>
+    <Square x="9" y="2" type="Pit">
+      <North hasWall="false" Emitters="0"/>
+      <East hasWall="false" Emitters="0"/>
+      <South hasWall="false" Emitters="0"/>
+      <West hasWall="false" Emitters="0"/>
+      <Feature />
+    </Square>
+    <Square x="9" y="3" type="Blank">
+      <North hasWall="false" Emitters="0"/>
+      <East hasWall="false" Emitters="0"/>
+      <South hasWall="false" Emitters="0"/>
+      <West hasWall="false" Emitters="0"/>
+      <Feature type="yConv" dir="W"/>
+    </Square>
+    <Square x="9" y="4" type="Blank">
+      <North hasWall="false" Emitters="0"/>
+      <East hasWall="false" Emitters="0"/>
+      <South hasWall="false" Emitters="0"/>
+      <West hasWall="false" Emitters="0"/>
+      <Feature />
+    </Square>
+    <Square x="9" y="5" type="Blank">
+      <North hasWall="false" Emitters="0"/>
+      <East hasWall="false" Emitters="0"/>
+      <South hasWall="false" Emitters="0"/>
+      <West hasWall="false" Emitters="0"/>
+      <Feature />
+    </Square>
+    <Square x="9" y="6" type="Blank">
+      <North hasWall="false" Emitters="0"/>
+      <East hasWall="false" Emitters="0"/>
+      <South hasWall="false" Emitters="0"/>
+      <West hasWall="false" Emitters="0"/>
+      <Feature type="yConv" dir="W"/>
+    </Square>
+    <Square x="9" y="7" type="Option">
+      <North hasWall="false" Emitters="0"/>
+      <East hasWall="false" Emitters="0"/>
+      <South hasWall="false" Emitters="0"/>
+      <West hasWall="false" Emitters="0"/>
+      <Feature />
+    </Square>
+    <Square x="9" y="8" type="Pit">
+      <North hasWall="false" Emitters="0"/>
+      <East hasWall="false" Emitters="0"/>
+      <South hasWall="false" Emitters="0"/>
+      <West hasWall="false" Emitters="0"/>
+      <Feature />
+    </Square>
+    <Square x="9" y="9" type="Blank">
+      <North hasWall="false" Emitters="0"/>
+      <East hasWall="false" Emitters="0"/>
+      <South hasWall="false" Emitters="0"/>
+      <West hasWall="false" Emitters="0"/>
+      <Feature type="yConv" dir="S"/>
+    </Square>
+    <Square x="9" y="10" type="Blank">
+      <North hasWall="false" Emitters="0"/>
+      <East hasWall="false" Emitters="0"/>
+      <South hasWall="false" Emitters="0"/>
+      <West hasWall="false" Emitters="0"/>
+      <Feature type="yturn" dir="LS"/>
+    </Square>
+    <Square x="9" y="11" type="Blank">
+      <North hasWall="true" Emitters="0"/>
+      <East hasWall="false" Emitters="0"/>
+      <South hasWall="false" Emitters="0"/>
+      <West hasWall="false" Emitters="0"/>
+      <Feature />
+    </Square>
+    <!-- column -->
+    <!-- Column 10-->
+    <Square x="10" y="0" type="Blank">
+      <North hasWall="false" Emitters="0"/>
+      <East hasWall="false" Emitters="0"/>
+      <South hasWall="false" Emitters="0"/>
+      <West hasWall="false" Emitters="0"/>
+      <Feature />
+    </Square>
+    <Square x="10" y="1" type="Blank">
+      <North hasWall="false" Emitters="0"/>
+      <East hasWall="false" Emitters="0"/>
+      <South hasWall="false" Emitters="0"/>
+      <West hasWall="true" Emitters="0"/>
+      <Feature />
+    </Square>
+    <Square x="10" y="2" type="Blank">
+      <North hasWall="false" Emitters="0"/>
+      <East hasWall="false" Emitters="0"/>
+      <South hasWall="false" Emitters="0"/>
+      <West hasWall="false" Emitters="0"/>
+      <Feature />
+    </Square>
+    <Square x="10" y="3" type="Blank">
+      <North hasWall="false" Emitters="0"/>
+      <East hasWall="false" Emitters="0"/>
+      <South hasWall="false" Emitters="0"/>
+      <West hasWall="false" Emitters="0"/>
+      <Feature type="yConv" dir="W"/>
+    </Square>
+    <Square x="10" y="4" type="Blank">
+      <North hasWall="false" Emitters="0"/>
+      <East hasWall="false" Emitters="0"/>
+      <South hasWall="false" Emitters="0"/>
+      <West hasWall="false" Emitters="0"/>
+      <Feature />
+    </Square>
+    <Square x="10" y="5" type="Blank">
+      <North hasWall="false" Emitters="0"/>
+      <East hasWall="false" Emitters="0"/>
+      <South hasWall="true" Emitters="0"/>
+      <West hasWall="false" Emitters="0"/>
+      <Feature />
+    </Square>
+    <Square x="10" y="6" type="Blank">
+      <North hasWall="false" Emitters="0"/>
+      <East hasWall="false" Emitters="0"/>
+      <South hasWall="false" Emitters="0"/>
+      <West hasWall="false" Emitters="0"/>
+      <Feature type="yConv" dir="W"/>
+    </Square>
+    <Square x="10" y="7" type="Blank">
+      <North hasWall="false" Emitters="0"/>
+      <East hasWall="false" Emitters="0"/>
+      <South hasWall="false" Emitters="0"/>
+      <West hasWall="false" Emitters="0"/>
+      <Feature />
+    </Square>
+    <Square x="10" y="8" type="Blank">
+      <North hasWall="false" Emitters="0"/>
+      <East hasWall="false" Emitters="0"/>
+      <South hasWall="false" Emitters="0"/>
+      <West hasWall="false" Emitters="0"/>
+      <Feature />
+    </Square>
+    <Square x="10" y="9" type="Blank">
+      <North hasWall="false" Emitters="0"/>
+      <East hasWall="false" Emitters="0"/>
+      <South hasWall="false" Emitters="0"/>
+      <West hasWall="false" Emitters="0"/>
+      <Feature />
+    </Square>
+    <Square x="10" y="10" type="Blank">
+      <North hasWall="false" Emitters="0"/>
+      <East hasWall="false" Emitters="0"/>
+      <South hasWall="false" Emitters="0"/>
+      <West hasWall="false" Emitters="0"/>
+      <Feature type="yConv" dir="W"/>
+    </Square>
+    <Square x="10" y="11" type="Blank">
+      <North hasWall="false" Emitters="0"/>
+      <East hasWall="false" Emitters="0"/>
+      <South hasWall="false" Emitters="0"/>
+      <West hasWall="false" Emitters="0"/>
+      <Feature />
+    </Square>
+    <!-- column -->
+    <!-- Column 0-->
+    <Square x="11" y="0" type="Checkpoint">
+      <North hasWall="false" Emitters="0"/>
+      <East hasWall="false" Emitters="0"/>
+      <South hasWall="false" Emitters="0"/>
+      <West hasWall="false" Emitters="0"/>
+      <Feature />
+    </Square>
+    <Square x="11" y="1" type="Blank">
+      <North hasWall="false" Emitters="0"/>
+      <East hasWall="false" Emitters="0"/>
+      <South hasWall="false" Emitters="0"/>
+      <West hasWall="false" Emitters="0"/>
+      <Feature />
+    </Square>
+    <Square x="11" y="2" type="Blank">
+      <North hasWall="false" Emitters="0"/>
+      <East hasWall="true" Emitters="0"/>
+      <South hasWall="false" Emitters="0"/>
+      <West hasWall="false" Emitters="0"/>
+      <Feature />
+    </Square>
+    <Square x="11" y="3" type="Blank">
+      <North hasWall="false" Emitters="0"/>
+      <East hasWall="false" Emitters="0"/>
+      <South hasWall="false" Emitters="0"/>
+      <West hasWall="false" Emitters="0"/>
+      <Feature type="yConv" dir="W"/>
+    </Square>
+    <Square x="11" y="4" type="Blank">
+      <North hasWall="false" Emitters="0"/>
+      <East hasWall="true" Emitters="0"/>
+      <South hasWall="false" Emitters="0"/>
+      <West hasWall="false" Emitters="0"/>
+      <Feature />
+    </Square>
+    <Square x="11" y="5" type="Blank">
+      <North hasWall="false" Emitters="0"/>
+      <East hasWall="false" Emitters="0"/>
+      <South hasWall="false" Emitters="0"/>
+      <West hasWall="false" Emitters="0"/>
+      <Feature />
+    </Square>
+    <Square x="11" y="6" type="Blank">
+      <North hasWall="false" Emitters="0"/>
+      <East hasWall="false" Emitters="0"/>
+      <South hasWall="false" Emitters="0"/>
+      <West hasWall="false" Emitters="0"/>
+      <Feature type="yConv" dir="W"/>
+    </Square>
+    <Square x="11" y="7" type="Blank">
+      <North hasWall="false" Emitters="0"/>
+      <East hasWall="true" Emitters="0"/>
+      <South hasWall="false" Emitters="0"/>
+      <West hasWall="false" Emitters="0"/>
+      <Feature />
+    </Square>
+    <Square x="11" y="8" type="Blank">
+      <North hasWall="false" Emitters="0"/>
+      <East hasWall="false" Emitters="0"/>
+      <South hasWall="false" Emitters="0"/>
+      <West hasWall="false" Emitters="0"/>
+      <Feature />
+    </Square>
+    <Square x="11" y="9" type="Blank">
+      <North hasWall="false" Emitters="0"/>
+      <East hasWall="true" Emitters="0"/>
+      <South hasWall="false" Emitters="0"/>
+      <West hasWall="false" Emitters="0"/>
+      <Feature />
+    </Square>
+    <Square x="11" y="10" type="Blank">
+      <North hasWall="false" Emitters="0"/>
+      <East hasWall="false" Emitters="0"/>
+      <South hasWall="false" Emitters="0"/>
+      <West hasWall="false" Emitters="0"/>
+      <Feature type="yConv" dir="W"/>
+    </Square>
+    <Square x="11" y="11" type="Blank">
+      <North hasWall="false" Emitters="0"/>
+      <East hasWall="false" Emitters="0"/>
+      <South hasWall="false" Emitters="0"/>
+      <West hasWall="false" Emitters="0"/>
+      <Feature />
+    </Square>
+    <!-- column -->
+  </Board>
+</Boards>
